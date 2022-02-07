@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp');
+
+.main-header {
+    background-color: white;
+    padding: 5px 80px;
+}
+
+.main-header img {
+    width: 167px;
+}
+
+.main-content {
+    min-height: 100vh;
+    background-color: #E5E5E5;
+}
+
+.fab {
+    z-index: 10;
+    font-size: 62px;
+    color: green;
+    position: fixed;
+    bottom: 80px;
+    right: 80px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.fab:hover {
+    transform: scale(1.2);
+}
